@@ -4,7 +4,7 @@ Landing page for the DATATHON UPY 2025 event organized by Effective Altruism UPY
 
 ## 🌐 Live Site
 
-Visit: [https://effective-altruism-upy.github.io/datathon-ea-upy-2025.github.io/](https://effective-altruism-upy.github.io/datathon-ea-upy-2025.github.io/)
+Visit: [https://effective-altruism-upy.github.io/datathon-ea-upy-2025/](https://effective-altruism-upy.github.io/datathon-ea-upy-2025/)
 
 ## 📅 Event Information
 
@@ -36,7 +36,7 @@ Visit: [https://effective-altruism-upy.github.io/datathon-ea-upy-2025.github.io/
 ## 📁 Project Structure
 
 ```
-datathon-ea-upy-2025.github.io/
+datathon-ea-upy-2025/
 ├── index.html          # Main HTML file
 ├── styles.css          # Stylesheet
 ├── script.js           # JavaScript functionality
