@@ -651,7 +651,7 @@ body {
    ===================================================== */
 @media (max-width: 768px) {
     .gradient-wrapper {
-        border-width: 20px;
+        border-width: 15px;
     }
     
     .menu-toggle {
@@ -725,9 +725,13 @@ body {
     }
     
     .main-title {
-        font-size: clamp(2.5rem, 12vw, 6rem);
-        letter-spacing: 0.1em;
+        font-size: clamp(2rem, 10vw, 5rem);
+        letter-spacing: 0.05em;
         transform: scaleY(0.75);
+        word-break: break-word;
+        overflow-wrap: break-word;
+        max-width: 100%;
+        padding: 0 10px;
     }
     
     .main-subtitle {
@@ -785,9 +789,15 @@ body {
    17. RESPONSIVE DESIGN - MÓVIL PEQUEÑO
    ===================================================== */
 @media (max-width: 480px) {
+    .gradient-wrapper {
+        border-width: 10px;
+    }
+    
     .main-title {
-        font-size: clamp(2rem, 15vw, 4rem);
+        font-size: clamp(1.8rem, 11vw, 3.5rem);
         transform: scaleY(0.75);
+        letter-spacing: 0.03em;
+        padding: 0 5px;
     }
     
     .deadline-date {
