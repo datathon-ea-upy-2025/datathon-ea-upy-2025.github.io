@@ -187,7 +187,52 @@ if (!document.querySelector('#dynamic-animations')) {
 }
 
 /* =====================================================
-   8. MANEJO DE SCROLL (OPCIONAL)
+   8. COUNTDOWN TIMER
+   ===================================================== */
+
+// Función para actualizar el countdown
+function updateCountdown() {
+    const targetDate = new Date('July 12, 2025 00:00:00').getTime();
+    const now = new Date().getTime();
+    const distance = targetDate - now;
+
+    // Calcular días, horas, minutos y segundos
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Actualizar el HTML
+    const daysElement = document.getElementById('days');
+    const hoursElement = document.getElementById('hours');
+    const minutesElement = document.getElementById('minutes');
+    const secondsElement = document.getElementById('seconds');
+
+    if (daysElement && hoursElement && minutesElement && secondsElement) {
+        daysElement.textContent = String(days).padStart(2, '0');
+        hoursElement.textContent = String(hours).padStart(2, '0');
+        minutesElement.textContent = String(minutes).padStart(2, '0');
+        secondsElement.textContent = String(seconds).padStart(2, '0');
+    }
+
+    // Si la fecha ya pasó
+    if (distance < 0) {
+        const countdownElement = document.getElementById('countdown');
+        if (countdownElement) {
+            countdownElement.innerHTML = '<div class="countdown-expired">¡EL EVENTO HA COMENZADO!</div>';
+        }
+    }
+}
+
+// Iniciar el countdown cuando carga la página
+document.addEventListener('DOMContentLoaded', function() {
+    updateCountdown();
+    // Actualizar cada segundo
+    setInterval(updateCountdown, 1000);
+});
+
+/* =====================================================
+   9. MANEJO DE SCROLL (OPCIONAL)
    ===================================================== */
 
 // Variable para rastrear la posición anterior del scroll

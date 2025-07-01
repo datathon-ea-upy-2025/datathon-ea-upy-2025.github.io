@@ -447,6 +447,75 @@ body {
     margin: 0;
 }
 
+/* Countdown styles */
+.countdown-container {
+    margin-top: 40px;
+}
+
+.countdown-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #B8C0E0;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.countdown-item {
+    background: rgba(34, 38, 57, 0.5);
+    border: 2px solid rgba(184, 192, 224, 0.3);
+    border-radius: 15px;
+    padding: 20px;
+    min-width: 100px;
+    text-align: center;
+}
+
+.countdown-value {
+    display: block;
+    font-size: 48px;
+    font-weight: 900;
+    color: #E0E0FF;
+    line-height: 1;
+    text-shadow: 0 3px 10px rgba(79, 58, 120, 0.3);
+}
+
+.countdown-label {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #B8C0E0;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+
+.countdown-expired {
+    font-size: 32px;
+    font-weight: 900;
+    color: #E0E0FF;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.05);
+        opacity: 0.8;
+    }
+}
+
 .schedule-info {
     margin-top: 20px;
 }
