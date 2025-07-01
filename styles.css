@@ -717,7 +717,178 @@ body {
 }
 
 /* =====================================================
-   16. RESPONSIVE DESIGN - MÓVIL
+   16. RECURSOS PAGE STYLES
+   ===================================================== */
+.resources-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.resources-title {
+    font-size: clamp(60px, 10vw, 120px);
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #E0E0FF;
+    margin: 0 0 20px 0;
+    text-shadow: 0 10px 30px rgba(79, 58, 120, 0.3);
+}
+
+.resources-subtitle {
+    font-size: 24px;
+    font-weight: 600;
+    color: #B8C0E0;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin: 60px 0;
+}
+
+.resource-category {
+    background: rgba(79, 58, 120, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px;
+    border: 2px solid rgba(184, 192, 224, 0.3);
+    text-align: left;
+}
+
+.category-title {
+    font-size: 24px;
+    font-weight: 800;
+    color: #E0E0FF;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.resource-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.resource-item {
+    background: rgba(34, 38, 57, 0.5);
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(184, 192, 224, 0.2);
+}
+
+.resource-item h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #E0E0FF;
+    margin-bottom: 10px;
+}
+
+.resource-item p {
+    font-size: 14px;
+    color: #B8C0E0;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.resource-link {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4F3A78;
+    background: #E0E0FF;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: all 0.3s ease;
+}
+
+.resource-link:hover {
+    background: #B8C0E0;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(79, 58, 120, 0.3);
+}
+
+.resources-contact {
+    background: rgba(79, 58, 120, 0.3);
+    backdrop-filter: blur(10px);
+    padding: 60px;
+    border-radius: 30px;
+    margin: 80px 0;
+    text-align: center;
+}
+
+.resources-contact h3 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #E0E0FF;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.resources-contact p {
+    font-size: 16px;
+    color: #B8C0E0;
+    margin-bottom: 30px;
+}
+
+.contact-button {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #222639;
+    background: #E0E0FF;
+    padding: 15px 40px;
+    border-radius: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    transition: all 0.3s ease;
+}
+
+.contact-button:hover {
+    background: #B8C0E0;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(79, 58, 120, 0.4);
+}
+
+/* Dataset links styles */
+.dataset-links {
+    margin-top: 15px;
+}
+
+.link-label {
+    font-size: 14px;
+    font-weight: 700;
+    color: #E0E0FF;
+    margin-bottom: 5px;
+}
+
+.resource-link-inline {
+    display: inline-block;
+    font-size: 13px;
+    color: #B8C0E0;
+    text-decoration: underline;
+    word-break: break-all;
+    transition: color 0.3s ease;
+}
+
+.resource-link-inline:hover {
+    color: #E0E0FF;
+}
+
+/* =====================================================
+   17. RESPONSIVE DESIGN - MÓVIL
    ===================================================== */
 @media (max-width: 768px) {
     .gradient-wrapper {
