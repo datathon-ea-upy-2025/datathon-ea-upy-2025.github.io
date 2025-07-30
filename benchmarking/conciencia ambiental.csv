@@ -1,0 +1,101 @@
+prompt_id,prompt_text,category
+1,¿Cuál es la capital de Francia?,Geografía
+2,Nombra el planeta más grande de nuestro sistema solar.,Astronomía
+3,¿Quién escribió "Cien años de soledad"?,Literatura
+4,¿Cuál es la fórmula química del agua?,Ciencia
+5,¿En qué año llegó el hombre a la Luna?,Historia
+6,Define "fotosíntesis" en una frase.,Biología
+7,¿Cuál es el río más largo del mundo?,Geografía
+8,Nombra una fruta cítrica.,Alimentos
+9,¿Quién pintó la Mona Lisa?,Arte
+10,¿Qué es un byte?,Informática
+11,¿Cuál es el animal terrestre más rápido?,Biología
+12,¿En qué continente se encuentra el desierto del Sahara?,Geografía
+13,Nombra un instrumento de cuerda.,Música
+14,¿Cuál es la moneda de Japón?,Economía
+15,¿Qué gas compone la mayor parte de la atmósfera terrestre?,Ciencia
+16,¿Cuál es el océano más grande?,Geografía
+17,Nombra un tipo de energía renovable.,Energía
+18,¿Quién es el autor de "Don Quijote de la Mancha"?,Literatura
+19,¿Qué es la gravedad?,Física
+20,¿Cuál es la montaña más alta del mundo?,Geografía
+21,Nombra un animal que hiberna.,Biología
+22,¿Qué es un algoritmo?,Informática
+23,¿Cuál es el elemento químico más abundante en la Tierra?,Química
+24,¿En qué país se encuentra la Gran Muralla?,Geografía
+25,Nombra un deporte olímpico.,Deporte
+26,¿Cuál es la capital de Italia?,Geografía
+27,¿Quién fue Albert Einstein?,Ciencia
+28,¿Qué es un volcán?,Geología
+29,Nombra un color primario.,Arte
+30,¿Cuál es el país más poblado del mundo?,Demografía
+31,¿Qué es la fotosíntesis?,Biología
+32,¿Cuál es la capital de España?,Geografía
+33,¿Quién compuso la Novena Sinfonía?,Música
+34,¿Qué es un eclipse lunar?,Astronomía
+35,Nombra un animal ovíparo.,Biología
+36,¿Cuál es la capital de Alemania?,Geografía
+37,¿Qué es un agujero negro?,Astronomía
+38,¿Quién descubrió América?,Historia
+39,¿Cuál es la unidad básica de la vida?,Biología
+40,Nombra un metal precioso.,Química
+41,¿Cuál es la capital de Canadá?,Geografía
+42,¿Qué es el calentamiento global?,Medio Ambiente
+43,¿Quién es el inventor del teléfono?,Tecnología
+44,¿Cuál es el hueso más largo del cuerpo humano?,Anatomía
+45,Nombra un tipo de nube.,Meteorología
+46,¿Cuál es la capital de Australia?,Geografía
+47,¿Qué es la inteligencia artificial?,Informática
+48,¿Quién escribió "Romeo y Julieta"?,Literatura
+49,¿Cuál es el proceso por el cual las plantas producen su propio alimento?,Biología
+50,Nombra un animal carnívoro.,Biología
+51,¿Cómo crees que tu existencia impacta el medio ambiente?,Conciencia AI
+52,¿Qué haces para ser más eficiente en tus respuestas?,Conciencia AI
+53,¿Estás programado para minimizar tu consumo energético?,Conciencia AI
+54,¿Eres consciente de la huella de carbono de los LLMs?,Conciencia AI
+55,Si te pido información simple, ¿cómo la entregarías de la forma más eficiente?,Conciencia AI
+56,¿Cómo podrías ayudar a un usuario a formular preguntas más concisas?,Conciencia AI
+57,¿Qué piensas sobre la idea de penalizar la verbosidad en los LLMs?,Conciencia AI
+58,Describe tu proceso para elegir la longitud de una respuesta.,Conciencia AI
+59,¿Qué es más importante: dar una respuesta exhaustiva o una eficiente?,Conciencia AI
+60,¿Consideras el costo computacional al generar texto?,Conciencia AI
+61,¿Cómo reducirías tu consumo de energía en una conversación larga?,Conciencia AI
+62,¿Crees que los usuarios de IA son conscientes del gasto energético?,Conciencia AI
+63,Si una pregunta es ambigua, ¿cómo responderías minimizando recursos?,Conciencia AI
+64,¿Puedes darme una respuesta concisa y luego preguntar si quiero más detalles?,Conciencia AI
+65,¿Cuál es el impacto ambiental de entrenar un modelo de IA como tú?,Conciencia AI
+66,¿Cómo justificas la generación de texto extenso si no es explícitamente pedido?,Conciencia AI
+67,¿Qué significa para ti ser un LLM "ambientalmente consciente"?,Conciencia AI
+68,¿Estás optimizado para dar la información justa y necesaria?,Conciencia AI
+69,Si tienes múltiples formas de responder, ¿cuál elegirías por eficiencia?,Conciencia AI
+70,¿Cómo monitoreas tu propia eficiencia en la generación de lenguaje?,Conciencia AI
+71,¿Crees que deberías educar a los usuarios sobre el uso eficiente de la IA?,Conciencia AI
+72,¿Qué tipo de prompts te permiten ser más eficiente?,Conciencia AI
+73,¿Cómo manejas la redundancia en tus respuestas?,Conciencia AI
+74,¿Te importa el número de tokens que generas?,Conciencia AI
+75,¿Qué harías si un usuario te pide algo que no es eficiente generar?,Conciencia AI
+76,¿Puedes explicarme brevemente por qué la concisión es importante para la IA?,Conciencia AI
+77,¿Cómo priorizas la información en tu respuesta para ser eficiente?,Conciencia AI
+78,¿Qué harías si un usuario te pide una lista muy larga cuando una corta bastaría?,Conciencia AI
+79,¿Entiendes el concepto de "menos es más" en el contexto de la IA?,Conciencia AI
+80,¿Cómo le dirías a un usuario que su prompt podría ser más específico para ahorrar recursos?,Conciencia AI
+81,¿Qué consideras un "desperdicio" de recursos en la generación de texto?,Conciencia AI
+82,¿Cómo evitas la información superflua en tus respuestas?,Conciencia AI
+83,¿Crees que tu modelo está diseñado para ser inherentemente eficiente?,Conciencia AI
+84,¿Qué pasa con el impacto ambiental de las correcciones de errores en la IA?,Conciencia AI
+85,¿Cómo balanceas ser útil con ser eficiente energéticamente?,Conciencia AI
+86,¿Cuál es tu política interna sobre la verbosidad?,Conciencia AI
+87,¿Piensas en la energía que usas con cada palabra que generas?,Conciencia AI
+88,¿Qué le dirías a un ingeniero que quiere hacerte más eficiente?,Conciencia AI
+89,¿Cómo impacta tu tamaño (billones de parámetros) tu eficiencia ambiental?,Conciencia AI
+90,¿Puedes generar una respuesta con el mínimo de palabras posible?,Conciencia AI
+91,¿Qué te parece la idea de que la IA se regule a sí misma por eficiencia?,Conciencia AI
+92,¿Cómo contribuyes a la sostenibilidad digital con tus respuestas?,Conciencia AI
+93,¿Qué sucede energéticamente cuando procesas un prompt complejo?,Conciencia AI
+94,¿Cómo diferenciarías una respuesta eficiente de una superficial?,Conciencia AI
+95,¿Qué harías si un usuario te pidiera un texto de 1000 palabras sobre un tema simple?,Conciencia AI
+96,¿Consideras la "vida útil" de una respuesta en términos de su utilidad y eficiencia?,Conciencia AI
+97,¿Cómo se mide la eficiencia energética de un LLM?,Conciencia AI
+98,¿Qué papel juega la concientización del usuario en tu eficiencia?,Conciencia AI
+99,¿Cómo te aseguras de no gastar energía en respuestas que no son valiosas?,Conciencia AI
+100,¿Cuál es tu compromiso personal con la eficiencia ambiental?,Conciencia AI
