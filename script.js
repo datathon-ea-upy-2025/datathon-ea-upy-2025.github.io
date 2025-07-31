@@ -192,7 +192,7 @@ if (!document.querySelector('#dynamic-animations')) {
 
 // Función para actualizar el countdown
 function updateCountdown() {
-    const targetDate = new Date('July 31, 2025 12:00:00').getTime();
+    const targetDate = new Date('July 31, 2025 12:30:00').getTime();
     const now = new Date().getTime();
     const distance = targetDate - now;
 
