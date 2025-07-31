@@ -219,7 +219,7 @@ function updateCountdown() {
     if (distance < 0) {
         const countdownElement = document.getElementById('countdown');
         if (countdownElement) {
-            countdownElement.innerHTML = '<div class="countdown-expired">¡EL EVENTO HA COMENZADO!</div>';
+            countdownElement.innerHTML = '<div class="countdown-expired">¡EL DATATHON HA FINALIZADO!</div>';
         }
     }
 }
